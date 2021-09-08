@@ -1,0 +1,17 @@
+@tailwind components;
+
+@layer components {
+  .social {
+    @apply text-4xl cursor-pointer hover:text-gray-200 font-thin
+    text-gray-100 transition transform duration-200 ease-out;
+  }
+  .flip {
+    @apply border-0 mr-5 bg-transparent hover:rotate-180 hover:text-red-500;
+  }
+  .nav1 {
+    @apply font-thin transition transform duration-200 text-white ease-out hover:text-green-500 hover:underline hover:animate-pulse mr-6;
+  }
+  .nav2 {
+    @apply hidden md:inline-flex mr-6 transition transform duration-200 ease-out hover:text-red-500 hover:animate-pulse;
+  }
+}
