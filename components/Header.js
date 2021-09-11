@@ -3,7 +3,7 @@ import Icon from "@material-tailwind/react/Icon";
 
 function Header() {
   return (
-    <header className="flex items-center py-2 sticky top-0 z-50 px-4 shadow-md bg-blue-900">
+    <header className="flex items-center py-2 sticky top-0 z-50 px-4 shadow-md bg-indigo-900">
       <img
         loading="lazy"
         className=" md:inline-flex cursor-pointer h-12 w-12 rounded-full ml-2 lg:ml-28"
@@ -27,7 +27,7 @@ function Header() {
 
       <nav
         className="hidden md:inline-flex flex-grow py-4 px-2 items-center font-bold 
-       text-xl mx-auto cursor-pointer lg:space-x-12"
+         text-xl mx-auto cursor-pointer lg:space-x-12"
       >
         <ul className="nav1">PARTNER WITH US</ul>
 

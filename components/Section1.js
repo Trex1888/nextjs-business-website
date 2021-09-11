@@ -11,15 +11,16 @@ function Section2() {
 
         return (
           <article key={id} className="text-center">
-            <div className=" ">
+            <div>
               <img
                 src={image}
+                loading="lazy"
                 alt="card"
-                className="h-80 w-72 mx-auto object-fill border-t-8 border-green-600"
+                className="h-80 w-72 mx-auto object-fill border-4 border-green-600"
               />
 
               <button
-                className="font-semibold bg-green-500 text-white py-2 px-5 -mt-10 mb-12 
+                className="font-semibold bg-green-500 text-white py-3 px-5 -mt-10 mb-12 
                  hover:bg-opacity-80"
               >
                 {link}

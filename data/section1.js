@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     image:
-      "https://i5.walmartimages.com/asr/b81bbefe-e6a9-4ca5-b33f-cd490cf2a61f_1.bd85c39f0f79f9772a7cdefa23811dd6.jpeg",
+      "https://australianmade.com.au/Assets/91938399-0112-4651-839d-8280155563a8.jpg",
     link: "CAREERS",
   },
   {
@@ -13,8 +13,7 @@ const data = [
   },
   {
     id: 3,
-    image:
-      "https://images.cdn2.stockunlimited.net/preview1300/successful-young-business-people-using-laptop-at-desk-in-office_1926404.jpg",
+    image: "https://www.escc.edu/wp-content/uploads/2019/04/Programming.jpg",
     link: "ABOUT",
   },
 ];
