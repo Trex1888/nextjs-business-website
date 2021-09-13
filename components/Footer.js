@@ -1,8 +1,8 @@
 import {
-  AiOutlineArrowRight,
   AiOutlineFacebook,
   AiOutlineInstagram,
   AiOutlineLinkedin,
+  AiOutlineRight,
   AiOutlineTwitter,
 } from "react-icons/ai";
 
@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className="bg-blue-500 text-center p-6">
       <h2 className="font-thin mt-8 mb-8 text-white text-xl flex items-center justify-center">
-        CONTACT US <AiOutlineArrowRight className="ml-2" />
+        CONTACT US <AiOutlineRight className="ml-2" />
       </h2>
 
       {/* <p className="text-white font-thin text-lg space-x-4">

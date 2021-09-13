@@ -1,11 +1,11 @@
 import { useState } from "react";
 import data from "../data/section1";
 
-function Section2() {
+function Section1() {
   const [cards, setcards] = useState(data);
 
   return (
-    <section className="section-2 mx-auto md:grid md:max-w-7xl grid-cols-3 xl:mx-20">
+    <section className="section-2 justify-center mx-auto md:grid md:max-w-7xl grid-cols-3 md:mx-20">
       {cards.map((card) => {
         const { id, image, link } = card;
 
@@ -16,12 +16,12 @@ function Section2() {
                 src={image}
                 loading="lazy"
                 alt="card"
-                className="h-80 w-72 mx-auto object-fill border-4 border-green-600"
+                className="rounded-md h-80 w-80 lg:h-96 lg:w-96 mx-auto lg:ml-20 object-fill border-4 border-green-600"
               />
 
               <button
-                className="font-semibold bg-green-500 text-white py-3 px-5 -mt-10 mb-12 
-                 hover:bg-opacity-80"
+                className="font-semibold bg-green-500 text-white lg:ml-24 py-4 px-16 -mt-7 mb-6 
+                 hover:bg-white hover:text-green-500 align-middle transition transform duration-200 ease-out"
               >
                 {link}
               </button>
@@ -33,4 +33,4 @@ function Section2() {
   );
 }
 
-export default Section2;
+export default Section1;

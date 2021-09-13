@@ -1,5 +1,6 @@
 import Button from "@material-tailwind/react/Button";
 import Icon from "@material-tailwind/react/Icon";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -27,9 +28,11 @@ function Header() {
 
       <nav
         className="hidden md:inline-flex flex-grow py-4 px-2 items-center font-bold 
-         text-xl mx-auto cursor-pointer lg:space-x-12"
+         text-xl mx-auto cursor-pointer lg:ml-8 lg:space-x-20"
       >
-        <ul className="nav1">PARTNER WITH US</ul>
+        <ul className="nav1">
+          <Link href="/about">PARTNER WITH US</Link>
+        </ul>
 
         <ul className="nav1">WHAT WE DO</ul>
 
