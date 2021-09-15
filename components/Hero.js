@@ -12,7 +12,7 @@ function Hero() {
 
       <div className="absolute top-1/4 w-full text-center">
         <p
-          className="text-l sm:text-3xl text-left ml-2 mb-2 lg:ml-10 xl:ml-20
+          className="text-xl sm:text-3xl text-left ml-2 mb-2 lg:ml-10 xl:ml-20
            md:mb-6 text-green-500 font-normal"
         >
           Your Partner <br /> For Building

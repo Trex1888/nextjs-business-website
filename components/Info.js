@@ -1,16 +1,13 @@
-import Image from "next/image";
-import Pic from "../images/long.png";
-
-function Work({ img, title, description, buttonText }) {
+function Info({ img, title, description, buttonText }) {
   return (
-    <section className="relative pt-24 pb-12 sm:mb-20 lg:ml-32">
-      <div className="relative h-96 max-w-[500px] sm:max-w-[900px] lg:max-w-[600px] ">
+    <section className="absolute right-10 pt-24 py-52 ">
+      <div className="relative h-96 max-w-[500px] pl-20 sm:max-w-[900px] ">
         {/* <Image
-          src={img}
-          layout="fill"
-          objectFit="cover"
-          className="rounded-2xl"
-        /> */}
+            src={img}
+            layout="fill"
+            objectFit="cover"
+            className="rounded-2xl"
+          /> */}
         <img src={img} alt="img" className="object-cover rounded-2xl" />
       </div>
 
@@ -26,4 +23,4 @@ function Work({ img, title, description, buttonText }) {
   );
 }
 
-export default Work;
+export default Info;

@@ -1,0 +1,37 @@
+body {
+  color: rgb(19, 41, 170);
+}
+
+@media (min-width: 640px) {
+  .hero {
+    position: relative;
+    background: url("./images/big.png") no-repeat center/cover;
+    height: 500px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero .overlay {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* .gamepass-hero {
+    background: url("./images/homepage/game_pass_1600.png") no-repeat
+      center/cover;
+  } */
+}
+
+.holiday {
+  background: url("./images/long.png") no-repeat center/cover;
+  color: rgb(19, 41, 170);
+}
+
+@media (min-width: 900px) {
+  .hero .overlay p.text {
+    width: 500px;
+  }
+}

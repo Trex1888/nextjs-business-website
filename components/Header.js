@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="flex items-center py-2 sticky top-0 z-50 px-4 shadow-md bg-indigo-900">
+    <header className="flex items-center py-2 sticky top-0 z-50 px-4 shadow-md bg-sblue">
       <img
         loading="lazy"
         className=" md:inline-flex cursor-pointer h-12 w-12 rounded-full ml-2 lg:ml-28"
