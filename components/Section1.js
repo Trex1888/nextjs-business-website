@@ -5,7 +5,7 @@ function Section1() {
   const [cards, setcards] = useState(data);
 
   return (
-    <section className="section-2 justify-center mx-auto md:grid md:max-w-7xl grid-cols-3 md:mx-20">
+    <section className="section-2 grid-cols-3 mx-auto md:grid md:max-w-7xl md:mx-20">
       {cards.map((card) => {
         const { id, image, link } = card;
 
@@ -16,7 +16,8 @@ function Section1() {
                 src={image}
                 loading="lazy"
                 alt="card"
-                className="rounded-md h-80 w-80 lg:h-96 lg:w-96 mx-auto lg:ml-20 object-fill border-4 border-green-600"
+                className="rounded-md h-80 w-80 mx-auto object-fill border-4
+                lg:h-96 lg:w-96 xl:ml-20 border-green-600"
               />
 
               <button

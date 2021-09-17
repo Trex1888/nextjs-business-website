@@ -3,7 +3,7 @@ function Dedicated() {
     <div className="border relative border-white max-w-6xl mx-auto">
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-20
-         font-light lg:my-12"
+         font-light lg:my-6"
       >
         We are dedicated to helping our partners grow and become more productive
         through creative and open technology solutions.

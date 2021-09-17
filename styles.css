@@ -21,12 +21,4 @@
     @apply cursor-pointer hover:text-green-500 hover:animate-bounce
     transition transform duration-200 ease-out;
   }
-  /* .hero {
-    @apply md:relative h-60;
-  }
-  .hero-img {
-    @apply text-white md:hidden;
-  }
-  .hero .overlay {
-  } */
 }

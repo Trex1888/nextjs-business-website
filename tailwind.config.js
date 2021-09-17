@@ -5,9 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sblue: {
+        blue: {
           light: "rgb(19, 41, 170)",
-          // DEFAULT: "#131921",
           DEFAULT: "rgb(3, 11, 58)",
         },
       },

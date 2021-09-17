@@ -12,10 +12,6 @@ function Footer() {
       <h2 className="font-thin mt-8 mb-8 text-white text-xl flex items-center justify-center">
         CONTACT US <AiOutlineRight className="ml-2" />
       </h2>
-
-      {/* <p className="text-white font-thin text-lg space-x-4">
-        Source Ally · 4501 NW Urbandale Dr. Urbandale, IA 50322 · (515) 279-264
-      </p> */}
       <ul className="grid md:inline-flex py-1 text-white space-x-4 text-sm justify-center mb-2">
         <li>Source Ally</li>
         <span className="hidden md:flex">·</span>
