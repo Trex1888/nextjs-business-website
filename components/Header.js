@@ -5,14 +5,17 @@ import Link from "next/link";
 function Header() {
   return (
     <header className="flex items-center py-2 sticky top-0 z-50 px-4 shadow-md bg-blue">
-      <img
-        loading="lazy"
-        className="md:inline-flex cursor-pointer h-12 w-12 rounded-full ml-2 lg:ml-28"
-        src="https://s.yimg.com/fz/api/res/1.2/oB.7V3B3ISUCAIKPYJN1nQ--~C/YXBwaWQ9c3JjaGRkO2g9ODE1O3E9ODA7dz05MDI-/https://s.yimg.com/bj/281e/281ecf8544bf97c024eea026e5b58d5e.jpg"
-        alt="img"
-      />
+      <Link href="/">
+        <img
+          loading="lazy"
+          className="md:inline-flex cursor-pointer h-12 w-12 rounded-full xl:ml-28"
+          src="https://s.yimg.com/fz/api/res/1.2/oB.7V3B3ISUCAIKPYJN1nQ--~C/YXBwaWQ9c3JjaGRkO2g9ODE1O3E9ODA7dz05MDI-/https://s.yimg.com/bj/281e/281ecf8544bf97c024eea026e5b58d5e.jpg"
+          alt="img"
+        />
+      </Link>
+
       <h1 className="flex flex-grow md:mr-auto mx-2 text-xl font-bold italic text-white font-serif">
-        Source Ally
+        <Link href="/">Source Ally </Link>
       </h1>
 
       <Button
@@ -27,8 +30,8 @@ function Header() {
       </Button>
 
       <nav
-        className="hidden md:inline-flex flex-grow py-4 px-2 items-center font-bold 
-         text-xl mx-auto cursor-pointer lg:ml-8 lg:space-x-20"
+        className="hidden md:inline-flex flex-grow py-4 px-2 items-center text-lg 
+        mx-auto cursor-pointer md:ml-20 md:space-x-8 xl:space-x-20"
       >
         <ul className="nav1">
           <Link href="/partner">PARTNER WITH US</Link>
@@ -47,7 +50,7 @@ function Header() {
         </ul>
 
         <ul className="nav1">
-          <Link href="/blog">OUR BLOGS</Link>
+          <Link href="/blog">BLOGS</Link>
         </ul>
       </nav>
     </header>

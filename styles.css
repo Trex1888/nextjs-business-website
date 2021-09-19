@@ -21,4 +21,10 @@
     @apply cursor-pointer hover:text-green-500 hover:animate-bounce
     transition transform duration-200 ease-out;
   }
+  .highlight {
+    @apply cursor-pointer text-green-500 underline;
+  }
+  .blue {
+    @apply text-blue-300;
+  }
 }

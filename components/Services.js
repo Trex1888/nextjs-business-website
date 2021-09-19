@@ -24,8 +24,8 @@ function Services() {
         {/* className="space-x-12 grid grid-cols-2 md:grid-cols-3 */}
         <AiOutlineLaptop className="green text-white h-40 w-20 ml-12 lg:ml-0" />
         <h2
-          className="absolute top-1/4 py-6 mt-6 bottom-3 text-white
-           md:mt-10 lg:left-1 lg:pt-24 lg:pr-14"
+          className="absolute top-1/4 py-6 mt-2 bottom-3 text-white
+           md:mt-10 lg:left-1 lg:pt-20 lg:pr-14 lg:mt-12"
         >
           SOFTWARE <br /> DEVELOPMENT
         </h2>
@@ -39,7 +39,7 @@ function Services() {
         <AiOutlineCloudUpload className="green text-white h-40 w-20" />
         <h2
           className="absolute top-1/2 pl-2 mt-8 text-white md:py-20
-           lg:top-20 lg:pl-10 lg:left-80"
+           lg:top-28 lg:mt-2 lg:pl-10 lg:left-80"
         >
           DEVOPS/ <br /> CLOUD
         </h2>

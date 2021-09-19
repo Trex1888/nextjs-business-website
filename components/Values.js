@@ -4,11 +4,11 @@ function Values() {
   return (
     <div
       className=" relative justify-center w-full max-w-6xl mx-auto mt-12
-     mb-20 lg:mb-32"
+       mb-20 lg:mb-32"
     >
       <h2
-        className="text-white text-center text-2xl pt-6 lg:mt-36
-         mb-2 font-normal"
+        className="text-white text-center text-2xl pt-6 mb-2 font-normal
+         lg:text-4xl lg:mt-24"
       >
         OUR CORE VALUES
       </h2>
