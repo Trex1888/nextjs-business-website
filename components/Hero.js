@@ -4,7 +4,7 @@ import four from "../images/four.jpg";
 function Hero() {
   return (
     <div
-      className="relative lg:border-b-8 border-green-500 h-[300px] 
+      className="relative border-b-8 border-btn h-[300px] 
      sm:h-[400px] lg:h-[500px] lg:mx-32 xl:h-[600px] 2xl:h-[700px]"
     >
       <Image

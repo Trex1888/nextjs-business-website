@@ -1,6 +1,6 @@
 import { AiOutlineRight } from "react-icons/ai";
 
-function Values() {
+function Values({ title, name, name1, name2, name3, name4, name5 }) {
   return (
     <div
       className=" relative justify-center w-full max-w-6xl mx-auto mt-12
@@ -10,20 +10,25 @@ function Values() {
         className="text-white text-center text-2xl pt-6 mb-2 font-normal
          lg:text-4xl lg:mt-24"
       >
-        OUR CORE VALUES
+        {title}
       </h2>
       <button className="nav2">
-        BE A TEACHER <AiOutlineRight className="arrow" />
-      </button>
-
-      <button className="nav2">
-        BE A LEADER <AiOutlineRight className="arrow" />
+        {name} <AiOutlineRight className="arrow" />
       </button>
       <button className="nav2">
-        BE AN EXPERT <AiOutlineRight className="arrow" />
+        {name1} <AiOutlineRight className="arrow" />
       </button>
       <button className="nav2">
-        BE AN OWNER <AiOutlineRight className="arrow" />
+        {name2} <AiOutlineRight className="arrow" />
+      </button>
+      <button className="nav2">
+        {name3} <AiOutlineRight className="arrow" />
+      </button>
+      <button className="nav2">
+        {name4} <AiOutlineRight className="arrow" />
+      </button>
+      <button className="nav2">
+        {name5} <AiOutlineRight className="arrow" />
       </button>
     </div>
   );

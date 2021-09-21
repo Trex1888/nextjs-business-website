@@ -8,7 +8,7 @@ import {
 
 function Footer() {
   return (
-    <div className="bg-blue-500 text-center p-6">
+    <div className="bg-blue1 text-center p-6">
       <h2 className="font-thin mt-8 mb-8 text-white text-xl flex items-center justify-center">
         CONTACT US <AiOutlineRight className="ml-2" />
       </h2>

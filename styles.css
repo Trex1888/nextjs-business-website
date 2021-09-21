@@ -10,8 +10,8 @@
      ease-out hover:text-green-500 hover:underline hover:animate-pulse mr-6;
   }
   .nav2 {
-    @apply font-semibold bg-blue-500 w-full py-2 text-white text-xl 
-    border-b-2 border-white hover:bg-white hover:text-blue-500
+    @apply font-semibold bg-blue1 w-full py-2 text-white text-xl 
+    border-b-2 border-white hover:bg-white hover:text-blue1
     flex items-center justify-center outline-none transition transform duration-200 ease-out;
   }
   .arrow {

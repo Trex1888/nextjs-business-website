@@ -6,8 +6,16 @@ module.exports = {
     extend: {
       colors: {
         blue: {
-          light: "rgb(19, 41, 170)",
-          DEFAULT: "rgb(3, 11, 58)",
+          light: "rgb(3, 11, 58)",
+          DEFAULT: "#061a40",
+        },
+        blue1: {
+          light: "rgb(3, 11, 58)",
+          DEFAULT: "#1a80c7",
+        },
+        btn: {
+          light: "rgb(3, 11, 58)",
+          DEFAULT: "#17ab55",
         },
       },
     },

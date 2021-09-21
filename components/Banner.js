@@ -7,7 +7,7 @@ import {
 
 function Banner() {
   return (
-    <div className="hidden sm:flex items-center sticky top-0 z-50 bg-blue-500 ">
+    <div className="hidden sm:flex items-center sticky top-0 z-50 bg-blue1">
       <div className="ml-2 flex flex-grow px-2 py-2 space-x-1 xl:ml-32">
         <AiOutlineTwitter className="social" />
         <AiOutlineInstagram className="social" />

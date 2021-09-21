@@ -74,20 +74,20 @@ function Services() {
       </button> */}
 
       <button
-        className="ml-32 justify-center font-semibold bg-green-500 text-white py-4 px-12 -mb-7
-        hover:bg-white hover:text-green-500 align-middle transition transform duration-200 ease-out"
+        className="ml-32 justify-center font-semibold bg-btn text-white py-4 px-12 -mb-7
+        hover:bg-white hover:text-btn align-middle transition transform duration-200 ease-out"
       >
         ENGINEERING
       </button>
       <button
-        className="hidden md:inline-flex ml-32 justify-center font-semibold bg-green-500 text-white
-         py-4 px-12 -mb-7 hover:bg-white hover:text-green-500 align-middle transition transform duration-200 ease-out"
+        className="hidden md:inline-flex ml-32 justify-center font-semibold bg-btn text-white
+         py-4 px-12 -mb-7 hover:bg-white hover:text-btn align-middle transition transform duration-200 ease-out"
       >
         DEVOPS/CLOUD
       </button>
       <button
-        className="hidden lg:inline-flex ml-32 justify-center font-semibold bg-green-500 text-white 
-         py-4 px-12 -mb-7 hover:bg-white hover:text-green-500 align-middle transition transform duration-200 ease-out"
+        className="hidden lg:inline-flex ml-32 justify-center font-semibold bg-btn text-white 
+         py-4 px-12 -mb-7 hover:bg-white hover:text-btn align-middle transition transform duration-200 ease-out"
       >
         DATA ANALYTICS
       </button>

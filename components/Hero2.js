@@ -1,15 +1,15 @@
 import Image from "next/image";
-import girl from "../images/girl.jpg";
+import what from "../images/what.jpg";
 
 function Hero2() {
   return (
     <div
-      className="relative w-full border-b-8 border-green-600 h-[400px] 
+      className="relative w-full border-b-8 border-btn h-[400px] 
       "
     >
       <Image
         loading="lazy"
-        src={girl}
+        src={what}
         layout="fill"
         objectFit="cover"
         className="opacity-50"

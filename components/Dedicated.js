@@ -1,6 +1,6 @@
 function Dedicated() {
   return (
-    <div className="border relative border-white max-w-6xl mx-auto">
+    <div className="border relative border-white max-w-6xl mx-auto lg:mb-44">
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-20
          font-light lg:my-6"

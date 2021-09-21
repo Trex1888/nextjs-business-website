@@ -1,11 +1,11 @@
 import { useState } from "react";
-import data from "../data/section1";
+import data from "../data/section2";
 
-function Section1() {
+function Section2() {
   const [cards, setcards] = useState(data);
 
   return (
-    <section className="section-2 grid-cols-3 mx-auto md:grid md:max-w-7xl mb-16 lg:mb-28 ">
+    <section className="section-2 grid-cols-3 mx-auto md:grid md:max-w-7xl mb-16 lg:mb-28">
       {cards.map((card) => {
         const { id, image, link } = card;
 
@@ -34,4 +34,4 @@ function Section1() {
   );
 }
 
-export default Section1;
+export default Section2;
