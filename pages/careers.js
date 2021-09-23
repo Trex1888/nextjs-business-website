@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Hero4 from "../components/Hero4";
+import Hero1 from "../components/Hero1";
 import Dedicated1 from "../components/Dedicated1";
-import Values1 from "../components/Values1";
+import Values from "../components/Values";
 import Work from "../components/Work";
+import seven from "../images/seven.jpg";
 
 function Careers() {
   return (
@@ -17,7 +18,7 @@ function Careers() {
       <Header />
 
       <main>
-        <Hero4 />
+        <Hero1 name="Powered by People..." name1="IN SLIPPERS!" img={seven} />
         <h2
           className="text-white justify-center text-center text-2xl mt-28 mx-16
            leading-relaxed font-thin lg:mx-36 xl:mx-52 lg:mt-36"
@@ -29,7 +30,7 @@ function Careers() {
           <span className="highlight">working solutions</span>.
         </h2>
 
-        <Values1 />
+        <Values />
         <Dedicated1 />
 
         <section>

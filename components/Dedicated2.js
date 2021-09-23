@@ -1,8 +1,8 @@
 function Dedicated2() {
   return (
     <div
-      className="border relative border-white max-w-7xl mx-8 mt-14
-     md:mx-20 lg:mx-36 xl:mx-52 lg:mt-28"
+      className="border relative border-white max-w-7xl mx-8 
+     md:mx-20 lg:mx-36 xl:mx-52"
     >
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-12 pb-4

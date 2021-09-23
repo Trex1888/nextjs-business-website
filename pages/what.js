@@ -2,9 +2,10 @@ import Head from "next/head";
 import Dedicated1 from "../components/Dedicated1";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Hero2 from "../components/Hero2";
-import Values1 from "../components/Values1";
+import Hero1 from "../components/Hero1";
+import Values from "../components/Values";
 import Work from "../components/Work";
+import what from "../images/what.jpg";
 
 function What() {
   return (
@@ -17,7 +18,11 @@ function What() {
       <Header />
 
       <main>
-        <Hero2 />
+        <Hero1
+          name="We Solve Complex Problems with"
+          name1="SOFTWARE SOLUTIONS"
+          img={what}
+        />
         <h2
           className="text-white justify-center text-center text-2xl mt-28 mx-16
            leading-relaxed font-thin lg:mx-36 xl:mx-52 lg:mt-36"
@@ -29,7 +34,15 @@ function What() {
           <span className="highlight">working solutions</span>.
         </h2>
 
-        <Values1 />
+        <Values
+          title="OUR EXPERTISE"
+          name="SOFTWARE DEVELOPMENT"
+          name1="QUALITY ENGINEERING"
+          name2="DEVOPS/CLOUD"
+          name3="USER EXPERIENCE"
+          name4="DATA ANALYTICS"
+          name5="DELIVERY LEAD"
+        />
         <Dedicated1 />
 
         <section>

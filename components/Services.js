@@ -9,7 +9,10 @@ import {
 
 function Services() {
   return (
-    <div className="border relative border-white max-w-6xl mx-auto mt-12 mb-20 lg:mt-28">
+    <div
+      className="border relative border-white max-w-6xl mx-8 mt-12 mb-20 lg:mt-28
+      lg:mb-36 lg:mx-20 xl:mx-auto"
+    >
       <h2
         className="text-white justify-center text-center text-2xl mt-6 lg:mt-12 mx-20
          font-semibold lg:mx-80 "
@@ -20,8 +23,6 @@ function Services() {
         className="space-x-12 grid grid-cols-2 md:grid-cols-3 
          md:justify-center lg:flex lg:space-x-24 lg:mb-10 mb-10"
       >
-        {/* <div className="ml-4 grid grid-cols-2 lg:inline-flex justify-center items-center"> */}
-        {/* className="space-x-12 grid grid-cols-2 md:grid-cols-3 */}
         <AiOutlineLaptop className="green text-white h-40 w-20 ml-12 lg:ml-0" />
         <h2
           className="absolute top-1/4 py-6 mt-2 bottom-3 text-white
@@ -66,13 +67,6 @@ function Services() {
         </h2>
       </div>
 
-      {/* <button
-        className="font-semibold bg-green-500 text-white py-4 px-16 mt-8 -mb-6 align-middle
-         ml-52 hover:bg-white hover:text-green-500 transition transform duration-200 ease-out"
-      >
-        LEARN MORE
-      </button> */}
-
       <button
         className="ml-32 justify-center font-semibold bg-btn text-white py-4 px-12 -mb-7
         hover:bg-white hover:text-btn align-middle transition transform duration-200 ease-out"
@@ -94,4 +88,5 @@ function Services() {
     </div>
   );
 }
+
 export default Services;

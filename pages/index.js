@@ -23,12 +23,12 @@ export default function Home() {
 
         <h2
           className="text-white justify-center text-center text-2xl my-10 mx-20
-           font-thin lg:mx-80 lg:my-28"
+          mb-20 leading-relaxed font-extralight lg:mx-80 lg:py-20 lg:mb-20"
         >
-          Source Ally is a technology services company{" "}
-          <h2 className="text-2xl text-green-500 font-light animate transform uppercase">
+          Source Ally is a technology services company,{" "}
+          <span className="text-2xl text-btn font-light animate transform uppercase underline">
             powered by people in slippers!
-          </h2>
+          </span>{" "}
           Our team of experts has extensive experience solving complex problems
           for our partners and building enterprise applications.
         </h2>
@@ -44,7 +44,13 @@ export default function Home() {
           name4="BE EXCELLENT"
           name5="BE AMAZING"
         />
-        <Dedicated />
+        <Dedicated
+          info=" We are dedicated to helping our partners grow and become more productive
+        through creative and open technology solutions."
+          btn1="OUR SERVICES"
+          btn2="OUR PROMISE"
+          btn3="OUR CLIENTS"
+        />
 
         <section>
           <Work

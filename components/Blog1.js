@@ -1,5 +1,5 @@
 import Image from "next/image";
-import what from "../images/what.jpg";
+import three from "../images/three.jpg";
 
 function Blog1() {
   return (
@@ -9,7 +9,7 @@ function Blog1() {
     >
       <Image
         loading="lazy"
-        src={what}
+        src={three}
         layout="fill"
         objectFit="cover"
         className="opacity-50"
@@ -17,11 +17,14 @@ function Blog1() {
 
       <div className="absolute top-1/3 w-full text-center opacity-100">
         <h2 className="text-4xl text-white font-light mb-2">
-          We Solve Complex Problems with
+          Sharing our Passion for Technology
         </h2>
-        <h2 className="text-5xl text-white font-normal">SOFTWARE SOLUTIONS</h2>
+        <h2 className="text-5xl text-white font-normal">
+          & CONTINUOUS LEARNING
+        </h2>
       </div>
     </div>
   );
 }
+
 export default Blog1;

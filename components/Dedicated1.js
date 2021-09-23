@@ -1,6 +1,9 @@
 function Dedicated1() {
   return (
-    <div className="border relative border-white max-w-6xl mx-auto">
+    <div
+      className="border relative border-white max-w-6xl mx-8 
+    lg:py-6 lg:px-4 lg:mx-24 xl:mx-auto"
+    >
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-20
         font-normal leading-relaxed lg:my-6"
@@ -8,7 +11,7 @@ function Dedicated1() {
         "Source Ally has the best{" "}
         <span className="blue">SOFTWARE DEVELOPERS</span>, and they are looked
         at as leaders in the space, and provide{" "}
-        <span className="blue">valuable insight</span> and{" "}
+        <span className="blu e">valuable insight</span> and{" "}
         <span className="blue">intuition</span>."
       </h2>
       <p

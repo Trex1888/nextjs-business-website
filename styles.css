@@ -7,7 +7,7 @@
   }
   .nav1 {
     @apply font-light transition transform duration-200 text-white
-     ease-out hover:text-green-500 hover:underline hover:animate-pulse mr-6;
+     ease-out hover:text-btn hover:underline hover:animate-pulse mr-6;
   }
   .nav2 {
     @apply font-semibold bg-blue1 w-full py-2 text-white text-xl 
@@ -18,11 +18,11 @@
     @apply hover:rotate-90 ml-2 transition duration-200 ease-out;
   }
   .green {
-    @apply cursor-pointer hover:text-green-500 hover:animate-bounce
+    @apply cursor-pointer hover:text-btn hover:animate-pulse
     transition transform duration-200 ease-out;
   }
   .highlight {
-    @apply cursor-pointer text-green-500 underline;
+    @apply cursor-pointer text-btn underline;
   }
   .blue {
     @apply text-blue-300;

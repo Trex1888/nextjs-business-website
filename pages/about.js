@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Hero3 from "../components/Hero3";
+import Hero1 from "../components/Hero1";
 import Dedicated1 from "../components/Dedicated1";
-import Values1 from "../components/Values1";
+import Values from "../components/Values";
 import Work from "../components/Work";
+import six from "../images/six.jpg";
 
 function About() {
   return (
@@ -17,7 +18,12 @@ function About() {
       <Header />
 
       <main>
-        <Hero3 />
+        <Hero1
+          name="Embedding Our Iterative, Team-Focused Approach"
+          name1="IN EVERYTHING WE DO!"
+          img={six}
+        />
+
         <h2
           className="text-white justify-center text-center text-2xl mt-28 mx-16
            leading-relaxed font-thin lg:mx-36 xl:mx-52 lg:mt-36"
@@ -29,7 +35,7 @@ function About() {
           <span className="highlight">working solutions</span>.
         </h2>
 
-        <Values1 />
+        <Values />
         <Dedicated1 />
 
         <section>

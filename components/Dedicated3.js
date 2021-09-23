@@ -6,7 +6,7 @@ function Dedicated3() {
     >
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-10
-          font-light leading-relaxed lg:my-6"
+        font-light leading-relaxed lg:my-6"
       >
         "Our Source Ally team was able to quickly come in and begin{" "}
         <span className="blue">delivering business value incrementally</span> to
@@ -17,7 +17,7 @@ function Dedicated3() {
       </h2>
       <p
         className="text-white justify-center text-right text-md my-4 mx-6
-          font-light lg:my-6"
+        font-light lg:my-6"
       >
         - Director of IT, Fortune 500 Company <br /> Global Financial Investment
         Management and Insurance Industry Equipment Industry

@@ -1,31 +1,33 @@
-function Dedicated() {
+function Dedicated({ info, btn1, btn2, btn3 }) {
   return (
-    <div className="border relative border-white max-w-6xl mx-auto lg:mb-44">
+    <div
+      className="border relative border-white max-w-6xl mx-8 mb-32 
+      lg:mb-44 lg:mx-20 xl:mx-auto"
+    >
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-20
-         font-light lg:my-6"
+         font-light leading-relaxed lg:my-6 lg:pt-4"
       >
-        We are dedicated to helping our partners grow and become more productive
-        through creative and open technology solutions.
+        {info}
       </h2>
 
       <button
         className="ml-32 justify-center font-semibold bg-green-500 text-white py-4 px-12 -mb-7
         hover:bg-white hover:text-green-500 align-middle transition transform duration-200 ease-out"
       >
-        OUR SERVICES
+        {btn1}
       </button>
       <button
         className="hidden md:inline-flex ml-32 justify-center font-semibold bg-green-500 text-white
          py-4 px-12 -mb-7 hover:bg-white hover:text-green-500 align-middle transition transform duration-200 ease-out"
       >
-        OUR PROMISE
+        {btn2}
       </button>
       <button
         className="hidden lg:inline-flex ml-32 justify-center font-semibold bg-green-500 text-white 
          py-4 px-12 -mb-7 hover:bg-white hover:text-green-500 align-middle transition transform duration-200 ease-out"
       >
-        OUR CLIENTS
+        {btn3}
       </button>
     </div>
   );

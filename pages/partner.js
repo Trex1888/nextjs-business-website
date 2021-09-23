@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Hero1 from "../components/Hero1";
 import Section2 from "../components/Section2";
 import Work1 from "../components/Work1";
+import girl from "../images/girl.jpg";
 
 function Partner() {
   return (
@@ -18,7 +19,11 @@ function Partner() {
       <Header />
 
       <main>
-        <Hero1 />
+        <Hero1
+          name="Your Ally for Delivering Top Notch"
+          name1="SOFTWARE SOLUTIONS"
+          img={girl}
+        />
         <Dedicated2 />
 
         <section className="mt-24 lg:mt-36">
