@@ -22,9 +22,7 @@
     transition transform duration-200 ease-out;
   }
   .highlight {
-    @apply cursor-pointer text-btn underline;
-  }
-  .blue {
-    @apply text-blue-300;
+    @apply cursor-pointer text-btn underline hover:text-white
+    transition transform duration-200 ease-out font-light text-2xl;
   }
 }

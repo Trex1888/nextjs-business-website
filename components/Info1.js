@@ -1,18 +1,18 @@
-function Dedicated2() {
+function Info1() {
   return (
     <div
       className="border relative border-white max-w-7xl mx-8 
-     md:mx-20 lg:mx-36 xl:mx-52"
+     mt-2 lg:mt-48 md:mx-20 lg:mx-36 xl:mx-52"
     >
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-12 pb-4
           font-light leading-relaxed lg:mt-14 lg:mb-4 lg:mx-32"
       >
         Our goal is to be an{" "}
-        <span className="blue">extension of your team</span> and your ally for
-        delivering top notch software solutions. As an Iowa company with a
-        strong work ethic, we take pride in earning and maintaining the trust of
-        our partners.
+        <span className="text-teal1 font-normal">extension of your team</span>{" "}
+        and your ally for delivering top notch software solutions. As an Iowa
+        company with a strong work ethic, we take pride in earning and
+        maintaining the trust of our partners.
       </h2>
 
       <button
@@ -37,4 +37,4 @@ function Dedicated2() {
   );
 }
 
-export default Dedicated2;
+export default Info1;

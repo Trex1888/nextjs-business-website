@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Dedicated2 from "../components/Dedicated2";
-import Dedicated3 from "../components/Dedicated3";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero1 from "../components/Hero1";
+import Info1 from "../components/Info1";
+import Info2 from "../components/Info2";
 import Section2 from "../components/Section2";
 import Work1 from "../components/Work1";
 import girl from "../images/girl.jpg";
@@ -24,7 +24,7 @@ function Partner() {
           name1="SOFTWARE SOLUTIONS"
           img={girl}
         />
-        <Dedicated2 />
+        <Info1 />
 
         <section className="mt-24 lg:mt-36">
           <Work1
@@ -82,7 +82,16 @@ function Partner() {
           />
         </section>
 
-        <Dedicated3 />
+        <Info2
+          info="Our Source Ally team was able to quickly come in and begin"
+          info1="delivering business value incrementally"
+          info2="to help move us forward on our digital strategy. Besides delivering top notch
+          software, they demonstrated an"
+          info3="engineering mindset and practices"
+          info4="- Director of IT, Fortune 500 Company"
+          info5="Global Financial Investment
+          Management and Insurance Industry Equipment Industry"
+        />
         <Section2 />
       </main>
       <Footer />

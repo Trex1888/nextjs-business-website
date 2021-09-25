@@ -1,14 +1,15 @@
 import Head from "next/head";
-import Dedicated from "../components/Dedicated";
+import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Info from "../components/Info";
 import Section1 from "../components/Section1";
 import Services from "../components/Services";
 import Values from "../components/Values";
 import Work from "../components/Work";
 
-export default function Home() {
+export default function Home({ name, name1, name2, name3 }) {
   return (
     <div className="bg-blue">
       <Head>
@@ -26,8 +27,8 @@ export default function Home() {
           mb-20 leading-relaxed font-extralight lg:mx-80 lg:py-20 lg:mb-20"
         >
           Source Ally is a technology services company,{" "}
-          <span className="text-2xl text-btn font-light animate transform uppercase underline">
-            powered by people in slippers!
+          <span className="highlight uppercase">
+            <Link href="/what">powered by people in slippers!</Link>
           </span>{" "}
           Our team of experts has extensive experience solving complex problems
           for our partners and building enterprise applications.
@@ -44,7 +45,7 @@ export default function Home() {
           name4="BE EXCELLENT"
           name5="BE AMAZING"
         />
-        <Dedicated
+        <Info
           info=" We are dedicated to helping our partners grow and become more productive
         through creative and open technology solutions."
           btn1="OUR SERVICES"

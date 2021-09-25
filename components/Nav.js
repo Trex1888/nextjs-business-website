@@ -24,9 +24,9 @@ function Nav() {
           <Link
             className="text-sm font-bold items-center leading-relaxed 
             inline-block mr-4 py-2 whitespace-nowrap uppercase"
-            href=""
+            href="/"
           >
-            teal Tailwind Starter Kit
+           Source Ally
           </Link>
           <Button
             color="white"
@@ -39,15 +39,6 @@ function Nav() {
           >
             <Icon name="menu" size="3xl" />
           </Button>
-          {/* <button
-            className="text-white cursor-pointer text-xl leading-none px-3 py-1 
-            border border-solid border-transparent rounded bg-transparent block 
-            lg:hidden outline-none focus:outline-none"
-            type="button"
-            onClick={() => setNavbarOpen(!navbarOpen)}
-          >
-            <i className="fas fa-bars"></i>
-          </button> */}
         </div>
         <div
           className={
@@ -56,35 +47,40 @@ function Nav() {
           }
           id="example-navbar-danger"
         >
-          <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-            <li className="nav-item">
-             
-                
-                
-            <Link href="/partner" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
-                <AiOutlineTwitter className="social"
-                 />
-               
-                <span className="ml-2 ">Share</span> </Link>
-             
+          <ul className="flex flex-col lg:hidden lg:flex-row list-none lg:ml-auto text-center mx-auto">
+            <li> 
+              <h2 className="px-3 py-2 text-2xl uppercase font-light 
+              leading-snug text-white hover:text-btn cursor-pointer">
+            <Link href="/partner">PARTNER WITH US</Link>
+              </h2>
             </li>
-            <li className="nav-item"> 
-              <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="#pablo"
-              >
-                <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
-                <span className="ml-2">Tweet</span>
-              </a>
+
+            <li> 
+              <h2 className="px-3 py-2 flex items-center text-2xl uppercase 
+            font-light leading-snug text-white hover:opacity-75 cursor-pointer">
+            <Link href="/what">WHAT WE DO</Link>
+              </h2>
             </li>
-            <li className="nav-item">
-              <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="#pablo"
-              >
-                <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
-                <span className="ml-2">Pin</span>
-              </a>
+
+            <li> 
+              <h2 className="px-3 py-2 flex items-center text-2xl uppercase 
+            font-light leading-snug text-white hover:opacity-75 cursor-pointer">
+            <Link href="/about">ABOUT US</Link>
+              </h2>
+            </li>
+
+            <li> 
+              <h2 className="px-3 py-2 flex items-center text-2xl uppercase 
+            font-light leading-snug text-white hover:opacity-75 cursor-pointer">
+            <Link href="/careers">CAREERS</Link>
+              </h2>
+            </li>
+
+            <li> 
+              <h2 className="px-3 py-2 flex items-center text-2xl uppercase 
+            font-light leading-snug text-white hover:opacity-75 cursor-pointer">
+            <Link href="/blog">BLOGS</Link>
+              </h2>
             </li>
           </ul>
         </div>

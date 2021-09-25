@@ -1,4 +1,4 @@
-function Dedicated({ info, btn1, btn2, btn3 }) {
+function Info({ info, btn1, btn2, btn3 }) {
   return (
     <div
       className="border relative border-white max-w-6xl mx-8 mb-32 
@@ -6,7 +6,7 @@ function Dedicated({ info, btn1, btn2, btn3 }) {
     >
       <h2
         className="text-white justify-center text-center text-2xl my-4 mx-20
-         font-light leading-relaxed lg:my-6 lg:pt-4"
+        font-extralight leading-relaxed lg:my-6 lg:pt-4"
       >
         {info}
       </h2>
@@ -33,4 +33,4 @@ function Dedicated({ info, btn1, btn2, btn3 }) {
   );
 }
 
-export default Dedicated;
+export default Info;

@@ -27,21 +27,19 @@ function Work({
       </div>
 
       <div
-        className="relative bottom-12 bg-white mb-20 pl-4 pb-12 rounded-2xl max-w-[500px] 
-        sm:max-w-[900px] lg:max-w-[700px] lg:right-20 lg:top-10 lg:mb-40 xl:mr-24"
+        className="relative bottom-12 bg-white mb-10 pl-4 pb-12 rounded-2xl max-w-[500px] 
+        sm:max-w-[900px] lg:max-w-[700px] lg:right-20 lg:top-10 lg:mb-56 mb xl:mr-24"
       >
-        <h2 className="text-indigo-800 mx-2 text-2xl mb-4 px-2 pt-6">
-          {title2}
-        </h2>
+        <h2 className="text-navy mx-2 text-2xl mb-4 px-2 pt-6">{title2}</h2>
 
-        <p className="px-4 text-gray-800">
-          <span className="text-black text-xl font-medium">PROBLEM</span>
+        <p className="px-4 text-navy-light font-light">
+          <span className="text-navy text-xl font-medium">PROBLEM</span>
           {problem}
           <br /> <br />
-          <span className="text-black text-xl font-medium">SOLUTION</span>
+          <span className="text-navy text-xl font-medium">SOLUTION</span>
           {solution}
           <br /> <br />
-          <span className="text-black text-xl font-medium">TECH STACK</span>
+          <span className="text-navy text-xl font-medium">TECH STACK</span>
           {stack}
         </p>
       </div>

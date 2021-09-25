@@ -8,9 +8,8 @@ function Header() {
     <>
       <Banner />
       <header
-        className="fixed w-full flex items-center py-4 px-4 shadow-md bg-blue
+        className="fixed w-full flex items-center py-4 px-4 bg-blue
         top-0 z-50 md:top-10 md:z-10"
-        //
       >
         <Link href="/">
           <img
@@ -21,8 +20,8 @@ function Header() {
           />
         </Link>
 
-        <h1 className="flex flex-grow md:mr-auto mx-2 text-xl font-bold italic text-white font-serif">
-          <Link href="/">Source Ally </Link>
+        <h1 className="flex flex-grow mt-1 md:mr-auto mx-2 text-3xl font-bold italic text-white font-serif">
+          <Link href="/">source ally </Link>
         </h1>
 
         <Button

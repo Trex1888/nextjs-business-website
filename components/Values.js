@@ -6,10 +6,7 @@ function Values({ title, name, name1, name2, name3, name4, name5 }) {
       className=" relative justify-center w-full max-w-6xl mx-auto mt-12
        mb-20 lg:mb-32"
     >
-      <h2
-        className="text-white text-center text-2xl pt-6 mb-2 font-normal
-         lg:text-4xl lg:mt-24"
-      >
+      <h2 className="text-white text-center text-2xl pt-6 mb-2 font-normal lg:mt-24">
         {title}
       </h2>
       <button className="nav2">

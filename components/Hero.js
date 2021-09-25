@@ -16,17 +16,23 @@ function Hero() {
       />
 
       <div className="absolute bottom-1/2 w-full text-center">
+        {/* <div className="border-4 rounded-xl py-6 border-white w-1/2"> */}
         <p
-          className="text-xl text-left text-white font-normal
-           ml-4 mb-2 sm:text-3xl md:mb-6 lg:ml-10 xl:ml-20 "
+          className="text-md text-right mr-12 text-white font-light
+          sm:text-4xl lg:ml-10 lg:text-left xl:ml-20"
         >
-          Your Partner <br /> For Building
+          Your Partner for Building
         </p>
         <p
-          className="text-2xl text-left ml-4 text-white font-normal
-         sm:text-4xl lg:ml-10 xl:ml-20 "
+          className="text-2xl text-right mr-16 text-white font-medium
+          sm:text-5xl lg:ml-10 lg:py-2 lg:text-left xl:ml-20"
         >
-          TECHNOLOGY <br />
+          TECHNOLOGY
+        </p>
+        <p
+          className="text-2xl -mt-2 text-right mr-28 text-white font-medium
+          sm:text-5xl lg:ml-10 lg:text-left xl:ml-20"
+        >
           SERVICES
         </p>
       </div>

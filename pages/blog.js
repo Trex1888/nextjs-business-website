@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Dedicated1 from "../components/Dedicated1";
 import Values from "../components/Values";
 import Work from "../components/Work";
 import Blog1 from "../components/Blog1";
 import Nav from "../components/Nav";
+import Info3 from "../components/Info3";
 
 function Blog() {
   return (
@@ -15,8 +15,8 @@ function Blog() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <Header /> */}
-      {/* <Nav /> */}
+      <Header />
+      <Nav />
 
       <main>
         <Blog1 />
@@ -32,7 +32,7 @@ function Blog() {
         </h2>
 
         <Values />
-        <Dedicated1 />
+        <Info3 />
 
         <section>
           <Work
