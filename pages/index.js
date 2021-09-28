@@ -9,7 +9,7 @@ import Services from "../components/Services";
 import Values from "../components/Values";
 import Work from "../components/Work";
 
-export default function Home({ name, name1, name2, name3 }) {
+export default function Home() {
   return (
     <div className="bg-blue">
       <Head>

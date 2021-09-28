@@ -14,6 +14,11 @@
     border-b-2 border-white hover:bg-white hover:text-blue1
     flex items-center justify-center outline-none transition transform duration-200 ease-out;
   }
+  .mobile {
+    @apply px-3 py-2 text-2xl uppercase font-light cursor-pointer
+    leading-snug text-white hover:text-btn hover:underline
+    transition transform duration-200 ease-out;
+  }
   .arrow {
     @apply hover:rotate-90 ml-2 transition duration-200 ease-out;
   }
@@ -24,5 +29,16 @@
   .highlight {
     @apply cursor-pointer text-btn underline hover:text-white
     transition transform duration-200 ease-out font-light text-2xl;
+  }
+  .big {
+    @apply bg-btn text-white w-80 py-2 px-4 -mt-10 mb-6 text-left text-lg
+    hover:bg-white hover:text-btn transition transform duration-200 ease-out
+    leading-relaxed font-light lg:h-44 lg:w-96;
+  }
+  .avatar {
+    @apply text-lg text-white px-2;
+  }
+  .white {
+    @apply underline cursor-pointer hover:opacity-90 transform duration-200 ease-out;
   }
 }

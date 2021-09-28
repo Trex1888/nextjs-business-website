@@ -51,7 +51,7 @@ function What() {
             title="Our Work"
             description="Mobile App Development"
             buttonText="LEARN MORE"
-            title2="BUILDING APIs TO CONNECT YOUR BUSINESS"
+            title2="BUILDING MOBILE APPS FOR YOUR BUSINESS"
             problem=": Our partner is a windmill factory that heavily invests in custom solutions. 
             Their products reduce noise, noticeable vibration, and wear-and-tear, resulting in longevity 
             and enhanced performance. Currently, there are no mobile solutions for these products. 
