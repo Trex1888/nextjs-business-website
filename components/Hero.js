@@ -1,5 +1,5 @@
 import Image from "next/image";
-import four from "../images/four.jpg";
+import board from "../images/board.jpg";
 
 function Hero() {
   return (
@@ -9,7 +9,7 @@ function Hero() {
     >
       <Image
         loading="lazy"
-        src={four}
+        src={board}
         layout="fill"
         objectFit="cover"
         className="opacity-80 "

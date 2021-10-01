@@ -4,9 +4,10 @@ import Header from "../components/Header";
 import Hero1 from "../components/Hero1";
 import Values from "../components/Values";
 import seven from "../images/seven.jpg";
-import Services from "../components/Services";
 import Info5 from "../components/Info5";
 import Benefits from "../components/Benefits";
+import Services1 from "../components/Services1";
+import Pics from "../components/Pics";
 
 function Careers() {
   return (
@@ -31,10 +32,10 @@ function Careers() {
             name4="DEDICATED TO SUCCESS"
             name5="CHALLENGING WORK"
           />
-          <Services />
         </section>
+        <Services1 />
         <Benefits
-          img="https://www.logicsofts.co.uk/blog/wp-content/uploads/2020/11/web-application-development.jpg"
+          img="https://www.lifeofpix.com/wp-content/uploads/2018/08/308-name05903-chim-1600x989.jpg"
           bens="BENEFITS"
           perks="PERKS"
           name="Health, Dental, Vision Insurance"
@@ -51,6 +52,7 @@ function Careers() {
           name11="Birthday Treats"
           name12="Teammate Discounts"
         />
+        <Pics />
       </main>
       <Footer />
     </div>

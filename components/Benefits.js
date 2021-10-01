@@ -1,5 +1,4 @@
-import Image from "next/image";
-import four from "../images/four.jpg";
+import five from "../images/five.jpg";
 
 function Benefits({
   img,
@@ -20,7 +19,7 @@ function Benefits({
   name12,
 }) {
   return (
-    <section className="relative mb-10 md:mx-6 lg:flex xl:ml-40 xl:mb-36">
+    <section className="relative mb-10 md:mx-6 lg:flex xl:ml-40 xl:mb-44">
       <div className="relative h-96 max-w-[500px] sm:max-w-[900px] xl:max-w-[600px] lg:flex">
         <img
           src={img}
@@ -36,7 +35,7 @@ function Benefits({
       >
         <h2
           className="text-navy text-2xl font-normal mb-2 px-5 pt-4 text-left 
-        md:relative md:left-16"
+          md:relative md:left-16"
         >
           {bens}
         </h2>
@@ -56,14 +55,14 @@ function Benefits({
 
         <h2
           className="text-navy text-2xl font-normal mb-2 px-5 pt-4 text-left 
-        md:relative md:left-10 xl:left-28"
+          md:relative md:left-10 xl:left-28"
         >
           {perks}
         </h2>
 
         <ul
           className="px-8 ml-8 font-light space-y-1 pb-4 list-disc text-navy-light 
-         mx-auto md:relative md:right-20 xl:left-0 md:mt-14"
+          mx-auto md:relative md:right-20 xl:left-0 md:mt-14"
         >
           <li>{name6}</li>
           <li>{name7} </li>

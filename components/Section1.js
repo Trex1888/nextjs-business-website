@@ -1,17 +1,18 @@
 import { useState } from "react";
 import data from "../data/section1";
+import Link from "next/link";
 
 function Section1() {
   const [cards, setcards] = useState(data);
 
   return (
-    <section className="section-2 grid-cols-3 mx-auto md:grid md:max-w-7xl mb-16 lg:mb-28 ">
+    <section className="grid-cols-3 mx-auto md:grid md:max-w-7xl mb-16 lg:mb-28">
       {cards.map((card) => {
         const { id, image, link } = card;
 
         return (
-          <article key={id} className="text-center">
-            <div>
+          <article key={id}>
+            <div className="text-center">
               <img
                 src={image}
                 loading="lazy"

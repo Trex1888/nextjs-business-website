@@ -1,12 +1,12 @@
 function Info5() {
   return (
     <div
-      className="border relative border-white max-w-6xl mx-8 mb-32 
+      className="border relative border-white max-w-6xl mx-8 mb-20 
         lg:mb-44 lg:mx-20 xl:mx-auto"
     >
       <h2
-        className="text-white justify-center text-center text-2xl my-4 mx-20
-          font-extralight leading-relaxed lg:my-6 lg:pt-4"
+        className="text-white justify-center text-center text-2xl my-4 mx-10
+          font-extralight leading-relaxed md:mx-20 lg:my-6 lg:pt-4"
       >
         Our partners tell us we{" "}
         <span className="highlight">act like owners</span>, not renters. Our

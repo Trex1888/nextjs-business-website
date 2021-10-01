@@ -6,6 +6,7 @@ import Work from "../components/Work";
 import Blog1 from "../components/Blog1";
 import Nav from "../components/Nav";
 import Info3 from "../components/Info3";
+import Nav1 from "../components/Nav1";
 
 function Blog() {
   return (
@@ -16,7 +17,7 @@ function Blog() {
       </Head>
 
       <Header />
-      <Nav />
+      {/* <Nav1 /> */}
 
       <main>
         <Blog1 />

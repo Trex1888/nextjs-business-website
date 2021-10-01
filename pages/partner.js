@@ -69,7 +69,7 @@ function Partner() {
             Coaching is one of our many specialites. Needless to say, we don't take coaching litely. Please inquire today about all the optional coaching we have available."
           />
           <Work1
-            img="https://www.commuterlearning.com/wp-content/uploads/2018/06/people-doing-research-on-whiteboard.jpg"
+            img="https://image.freepik.com/free-photo/business-people-working-office-with-digital-tablet_1301-6592.jpg"
             title="PORTFOLIO ANALYSIS"
             name="Product Prioritization"
             name1="Reduce Risk Exposure"
