@@ -1,14 +1,11 @@
 import { useState } from "react";
-import data from "../data/pics";
+import data from "../data/scroll";
 
-function Pics() {
+function Scroller() {
   const [cards, setcards] = useState(data);
 
   return (
-    <section
-      className="grid grid-cols-2 lg:grid-cols-4 mb-20 space-x-2 mx-10
-      md:mx-56 md:grid md:max-w-7xl lg:mb-28 lg:mx-6 xl:mx-auto md:col-span-2"
-    >
+    <section className="flex space-x-20 pr-28">
       {cards.map((card) => {
         const { id, image } = card;
         return (
@@ -18,8 +15,8 @@ function Pics() {
                 src={image}
                 loading="lazy"
                 alt="card"
-                className="rounded-md h-48 w-56 mx-auto object-fill border-4 border-btn 
-                opacity-90 mb-4 md:h-68 md:w-60 lg:h-72 lg:w-80"
+                className="rounded cursor-pointer mx-auto object-fill
+                opacity-90 my-4 h-20 w-36"
               />
             </div>
           </article>
@@ -29,4 +26,4 @@ function Pics() {
   );
 }
 
-export default Pics;
+export default Scroller;

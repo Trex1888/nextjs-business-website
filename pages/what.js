@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero1 from "../components/Hero1";
 import Info3 from "../components/Info3";
+import Nav from "../components/Nav";
 import Values from "../components/Values";
 import Work from "../components/Work";
 import what from "../images/what.jpg";
@@ -16,6 +17,7 @@ function What() {
       </Head>
 
       <Header />
+      <Nav />
 
       <main>
         <Hero1

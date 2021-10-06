@@ -1,6 +1,5 @@
 import { useState } from "react";
 import data from "../data/section1";
-import Link from "next/link";
 
 function Section1() {
   const [cards, setcards] = useState(data);

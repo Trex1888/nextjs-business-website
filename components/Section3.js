@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../data/places";
+import data from "../data/section3";
 
 function Section3() {
   const [cards, setcards] = useState(data);

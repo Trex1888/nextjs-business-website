@@ -1,6 +1,6 @@
 import { useState } from "react";
 import data from "../data/services1";
-import { AiOutlineDown, AiOutlineRight } from "react-icons/ai";
+import { AiOutlineDown } from "react-icons/ai";
 
 function Services1() {
   const [cards, setcards] = useState(data);
@@ -28,7 +28,6 @@ function Services1() {
                   md:h-28 md:w-36 lg:h-52 lg:w-40 border-btn opacity-90"
                 />
               </div>
-              {/* <AiOutlineRight className="hidden lg:inline-flex relative left-72 top-24 text-white text-3xl mb-2" /> */}
 
               <div className="px-20 md:px-2">
                 <h2 className="text-white mx-auto text-center leading-snug pt-2 text-xl font-light">

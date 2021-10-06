@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Info from "../components/Info";
+import Nav from "../components/Nav";
 import Section1 from "../components/Section1";
 import Services from "../components/Services";
 import Values from "../components/Values";
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <Nav />
 
       <main>
         <Hero />

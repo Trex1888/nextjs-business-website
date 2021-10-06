@@ -4,14 +4,13 @@ import Header from "../components/Header";
 import Hero1 from "../components/Hero1";
 import Values from "../components/Values";
 import six from "../images/six.jpg";
-import Info3 from "../components/Info3";
-import Work1 from "../components/Work1";
-import Section1 from "../components/Section1";
-import data from "../data/places";
+import data from "../data/section3";
 import { useState } from "react";
-import Places from "../components/Places";
 import Section3 from "../components/Section3";
 import Info4 from "../components/Info4";
+import Marquee from "react-fast-marquee";
+import Scroller from "../components/Scroller";
+import Nav from "../components/Nav";
 
 function About() {
   const [cards, setCards] = useState(data);
@@ -24,6 +23,7 @@ function About() {
       </Head>
 
       <Header />
+      <Nav />
 
       <main>
         <Hero1
@@ -84,25 +84,19 @@ function About() {
           <span className="highlight">many successful AWS projects.</span>
         </h2>
 
-        {/* <Section1 /> */}
         <Section3 />
         <Info4 />
 
         <h2
           className="text-white justify-center text-center text-2xl mt-28 mx-6
-           leading-relaxed font-normal mb-6 lg:mx-36 xl:mx-52 lg:mt-44"
+           leading-relaxed font-normal mb-2 lg:mx-36 xl:mx-52 lg:mt-44"
         >
           {" "}
           OUR COMMUNITY INVOLVEMENT
         </h2>
-
-        {/* <section>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {cards?.map(({ image, title, info, id }) => (
-              <Section3 key={id} image={image} title={title} info={info} />
-            ))}
-          </div>
-        </section> */}
+        <Marquee speed="90" pauseOnHover="true" className="bg-gray-200">
+          <Scroller />
+        </Marquee>
       </main>
 
       <Footer />

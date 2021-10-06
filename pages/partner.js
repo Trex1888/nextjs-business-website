@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Hero1 from "../components/Hero1";
 import Info1 from "../components/Info1";
 import Info2 from "../components/Info2";
+import Nav from "../components/Nav";
 import Section2 from "../components/Section2";
 import Work1 from "../components/Work1";
 import girl from "../images/girl.jpg";
@@ -17,6 +18,7 @@ function Partner() {
       </Head>
 
       <Header />
+      <Nav />
 
       <main>
         <Hero1

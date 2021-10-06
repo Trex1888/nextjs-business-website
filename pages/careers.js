@@ -8,6 +8,7 @@ import Info5 from "../components/Info5";
 import Benefits from "../components/Benefits";
 import Services1 from "../components/Services1";
 import Pics from "../components/Pics";
+import Nav from "../components/Nav";
 
 function Careers() {
   return (
@@ -18,6 +19,7 @@ function Careers() {
       </Head>
 
       <Header />
+      <Nav />
 
       <main>
         <Hero1 name="Powered by People..." name1="IN SLIPPERS!" img={seven} />

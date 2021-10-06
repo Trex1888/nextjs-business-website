@@ -14,8 +14,13 @@
     border-b-2 border-white hover:bg-white hover:text-blue1
     flex items-center justify-center outline-none transition transform duration-200 ease-out;
   }
+  .nav3 {
+    @apply font-semibold bg-blue1 w-full py-2 text-white text-xl 
+    border-b-2 border-black hover:bg-white hover:text-blue1
+    flex items-center justify-center outline-none transition transform duration-200 ease-out;
+  }
   .mobile {
-    @apply px-3 py-2 text-2xl uppercase font-light cursor-pointer
+    @apply px-3 py-2 text-xl uppercase font-light cursor-pointer
     leading-snug text-white hover:text-btn hover:underline
     transition transform duration-200 ease-out;
   }

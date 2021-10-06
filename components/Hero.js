@@ -4,7 +4,7 @@ import board from "../images/board.jpg";
 function Hero() {
   return (
     <div
-      className="relative mt-20 mb-20 rounded-2xl shadow-md border-b-8 border-btn h-[300px] 
+      className="relative mb-20 rounded-2xl shadow-md border-b-8 border-btn h-[300px] 
      sm:h-[400px] lg:h-[500px] lg:mx-32 lg:mt-12"
     >
       <Image
@@ -16,7 +16,6 @@ function Hero() {
       />
 
       <div className="absolute bottom-1/2 w-full text-center">
-        {/* <div className="border-4 rounded-xl py-6 border-white w-1/2"> */}
         <p
           className="text-md text-right mr-12 text-white font-light
           sm:text-4xl lg:ml-10 lg:text-left xl:ml-20"

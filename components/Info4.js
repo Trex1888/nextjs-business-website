@@ -1,7 +1,5 @@
 function Info4() {
   return (
-    // <section className="bg-[#F8F9FA] pb-20 pt-20 px-10">
-    // max-w-3xl mx-auto
     <div
       className="border relative border-white max-w-6xl mx-10 py-10 mb-24 
     lg:px-12 lg:mb-32 lg:mx-24 xl:mx-auto"
@@ -50,7 +48,6 @@ function Info4() {
         </div>
       </div>
     </div>
-    // </section>
   );
 }
 

@@ -1,5 +1,3 @@
-import five from "../images/five.jpg";
-
 function Benefits({
   img,
   bens,

@@ -15,7 +15,7 @@ function Footer() {
       <ul className="grid md:inline-flex py-1 text-white space-x-4 text-sm justify-center mb-2">
         <li>Source Ally</li>
         <span className="hidden md:flex">·</span>
-        <li>5555 NW Urbandale Dr. Urbandale, IA 55555</li>
+        <li>5555 NW Sunset Dr. Las Vegas, NV 55555</li>
         <span className="hidden md:flex">·</span>
         <li>(555) 555-5555</li>
       </ul>
